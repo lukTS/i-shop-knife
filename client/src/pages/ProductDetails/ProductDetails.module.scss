@@ -1,0 +1,39 @@
+@import '../../styles/variables';
+
+.container {
+  padding: 0 $container-padding;
+  margin: 40px 0;
+}
+
+.container h1{
+  text-align: center;
+  color: $main-color;
+  margin-bottom: 40px;
+}
+
+.mainPicture {
+  width: 40%;
+}
+
+.containerContent {
+  display: flex;
+  gap: 50px;
+}
+
+.containerContent h3 {
+  color: $main-color;
+}
+
+.containerPrice {
+  display: flex;
+  margin: 50px 0 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 800;
+  color: $main-color;
+}

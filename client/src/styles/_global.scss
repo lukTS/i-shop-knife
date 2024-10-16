@@ -1,0 +1,52 @@
+// _global.scss
+@import './variables';
+@import './mixins';
+
+body {
+  font-family: $font-stack;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
+
+.container {
+  width: 100%;
+  padding: 0 0;
+  margin: 0 auto;
+
+  @include respond-to(small) {
+
+  }
+
+  @include respond-to(medium) {
+
+  }
+
+  @include respond-to(large) {
+    
+  }
+
+  @include respond-to(x-large) {
+
+  }
+}
+
+html, body {
+  overflow-x: hidden; // Скрывает горизонтальную прокрутку
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: $main-color-hover;
+}
+
+ul {
+  list-style-type: none; /* Убираем маркеры */
+  padding: 0; /* Убираем отступы */
+  margin: 0;
+}
+

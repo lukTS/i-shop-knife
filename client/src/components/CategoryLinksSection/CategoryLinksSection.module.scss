@@ -1,0 +1,31 @@
+@import '../../styles/variables';
+
+.container {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+	background-color: $basic-gray-background;
+  padding: 40px $container-padding;
+  gap: 30px;
+}
+
+.container img {
+  width: 60px;
+}
+
+
+.cardContainer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.cardContainer h3 {
+  margin-bottom: 0;
+  color: $main-color;
+  font-size: 17px;
+}
+
+.cardContainer h3:hover {
+  color: $main-color-hover;
+}

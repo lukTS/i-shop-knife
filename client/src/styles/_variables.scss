@@ -1,0 +1,20 @@
+// _variables.scss
+$breakpoints: (
+  small: 576px,
+  medium: 768px,
+  large: 992px,
+  x-large: 1200px
+);
+
+$font-stack: 'Arial, sans-serif';
+$font-title: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+$main-color: #811900;
+$main-color-hover:#cb411f;
+$basic-gray-background: #f9f9f9;
+$basic-gray-border: #ccc;
+$gray-text: #555;
+
+$container-padding: 70px;
+
+

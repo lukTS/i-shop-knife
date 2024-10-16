@@ -1,0 +1,285 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Hunting knives",
+      "icon": "./images/hunting.svg",
+      "img1": "/images/hunt1.jpg",
+      "img2": "/images/hunt2.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Camping knives",
+      "icon": "./images/camping.svg",
+      "img1": "/images/mt2.jpg",
+      "img2": "/images/mt1.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Kitchen knives",
+      "icon": "./images/kitchen.svg",
+      "img1": "/images/kitchen1.jpg",
+      "img2": "/images/kitchen2.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Tactical knives",
+      "icon": "./images/tactical.svg",
+      "img1": "/images/tactical1.jpg",
+      "img2": "/images/tactical2.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Folding knives",
+      "icon": "./images/folding.svg",
+      "img1": "/images/folding1.jpg",
+      "img2": "/images/folding2.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Throwing knives",
+      "icon": "./images/throwing.png",
+      "img1": "/images/throw1.jpg",
+      "img2": "/images/throw2.jpg"
+    },
+    {
+      "id": "7",
+      "name": "All categories",
+      "icon": "./images/all.png",
+      "img1": "/images/metatelnye-nozhi-2.jpg",
+      "img2": "/images/benchmade-1280-2.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Precision Flyer",
+      "shortDescription": "he throwing knife is balanced for precise throws. Lightweight, durable, and ergonomic.",
+      "longDescription": "The throwing knife is designed for those passionate about the art of throwing. Balanced for precise flight, its high-quality steel blade ensures durability and remains sharp after repeated use. The ergonomic handle provides a secure grip, reducing the chance of slipping, and often features a non-slip coating for added control. The knife’s balance, with its center of gravity near the middle, ensures accurate, stable throws from any distance. Suitable for both beginners and experienced throwers, this knife is ideal for training, competition, and outdoor use, making it a versatile tool for various tasks.",
+      "price": 29.99,
+      "stock": 100,
+      "category_id": "6",
+      "Article": "223",
+      "image_url": "/images/metatelnye-nozhi-2.jpg",
+      "created_at": "2023-08-12T12:34:56Z",
+      "updated_at": "2023-08-12T12:34:56Z",
+      "features": [
+        {
+          "name": "Blade Material",
+          "value": "High-quality steel"
+        },
+        {
+          "name": "Handle Material",
+          "value": "Non-slip ergonomic grip"
+        },
+        {
+          "name": "Length",
+          "value": "12 inches"
+        },
+        {
+          "name": "Weight",
+          "value": "200 grams"
+        },
+        {
+          "name": "Balance",
+          "value": "Center of gravity near middle"
+        }
+      ],
+      "isNew": true
+    },
+    {
+      "id": "2",
+      "name": "Benchmade",
+      "shortDescription": "Benchmade folding knife with green handle: durable, stylish, and easy to use.",
+      "longDescription": "The Benchmade folding knife with a green handle is the perfect choice for those who value both quality and style. Crafted from high-grade materials, this knife offers durability and reliability. The ergonomic green handle ensures a comfortable grip and prevents slipping, even in challenging conditions. The blade, made from robust steel, provides excellent sharpness and corrosion resistance. The folding mechanism ensures safety and convenience when carrying. The Benchmade knife is ideal for everyday use, outdoor activities, and professional tasks.",
+      "price": 49.99,
+      "stock": 100,
+      "category_id": "5",
+      "Article": "123",
+      "image_url": "/images/benchmade-1280-2.jpg",
+      "created_at": "2023-08-12T12:34:56Z",
+      "updated_at": "2023-08-12T12:34:56Z",
+      "features": [
+        {
+          "name": "Blade Material",
+          "value": "High-quality steel"
+        },
+        {
+          "name": "Handle Material",
+          "value": "Non-slip ergonomic grip"
+        },
+        {
+          "name": "Length",
+          "value": "12 inches"
+        },
+        {
+          "name": "Weight",
+          "value": "200 grams"
+        },
+        {
+          "name": "Balance",
+          "value": "Center of gravity near middle"
+        }
+      ],
+      "isNew": true
+    },
+    {
+      "id": "3",
+      "name": "Predator's Elegance",
+      "shortDescription": "Hunting knife with carved guard and dual-material handle: robust, versatile, and elegant.",
+      "longDescription": "This hunting knife features a beautifully carved guard and a handle crafted from two distinct materials, combining both functionality and elegance. The intricate guard not only adds a touch of artistry but also ensures a secure grip during use. The handle is designed for maximum comfort and durability, with the dual materials offering both aesthetic appeal and enhanced performance. The blade is forged from high-quality steel, providing excellent sharpness and resilience. Perfect for hunting and outdoor adventures, this knife stands out for its robust build and stylish design.",
+      "price": 19.99,
+      "stock": 100,
+      "category_id": "1",
+      "Article": "323",
+      "image_url": "/images/dalton-kholder-nozhi-2.jpg",
+      "created_at": "2023-08-12T12:34:56Z",
+      "updated_at": "2023-08-12T12:34:56Z",
+      "features": [
+        {
+          "name": "Blade Material",
+          "value": "High-quality steel"
+        },
+        {
+          "name": "Handle Material",
+          "value": "Non-slip ergonomic grip"
+        },
+        {
+          "name": "Length",
+          "value": "12 inches"
+        },
+        {
+          "name": "Weight",
+          "value": "200 grams"
+        },
+        {
+          "name": "Balance",
+          "value": "Center of gravity near middle"
+        }
+      ],
+      "isNew": true
+    },
+    {
+      "id": "4",
+      "name": "Spectrum Hunter",
+      "shortDescription": "Hunting and camping knives with colorful blades: durable, functional, and eye-catching.",
+      "longDescription": "Our hunting and camping knives feature vibrant, colorful blades that stand out in any outdoor setting. Crafted for durability and functionality, these knives are designed to handle the toughest tasks with ease. The variety of blade colors adds a unique touch, making each knife not only a reliable tool but also a stylish accessory. The ergonomic handle ensures a comfortable grip, while the high-quality steel blade provides exceptional sharpness and strength. Ideal for hunting, camping, and all your outdoor adventures, these knives combine practicality with a striking appearance.",
+      "price": 19.99,
+      "stock": 100,
+      "category_id": "4",
+      "Article": "423",
+      "image_url": "/images/nozh-dlia-oboev-1.jpg",
+      "created_at": "2023-08-12T12:34:56Z",
+      "updated_at": "2023-08-12T12:34:56Z",
+      "features": [
+        {
+          "name": "Blade Material",
+          "value": "High-quality steel"
+        },
+        {
+          "name": "Handle Material",
+          "value": "Non-slip ergonomic grip"
+        },
+        {
+          "name": "Length",
+          "value": "12 inches"
+        },
+        {
+          "name": "Weight",
+          "value": "200 grams"
+        },
+        {
+          "name": "Balance",
+          "value": "Center of gravity near middle"
+        }
+      ],
+      "isNew": true
+    },
+    {
+      "id": "5",
+      "name": "TitanPro Multi-Tool",
+      "shortDescription": "Versatile multi-tool with durable, functional features for any adventure or task.",
+      "longDescription": "Introducing our versatile multi-tool, engineered for reliability and style in any situation. This robust tool combines numerous functions into one compact design, featuring pliers, screwdrivers, knives, and more, each crafted for peak performance. The durable stainless steel construction ensures longevity, while the ergonomic handle provides a comfortable, secure grip during use. Ideal for camping, hiking, or everyday tasks, this multi-tool is designed to tackle various challenges effortlessly. Its sleek, modern appearance and practical functionality make it an essential companion for outdoor enthusiasts and professionals alike.",
+      "price": 69.99,
+      "stock": 100,
+      "category_id": "2",
+      "Article": "427",
+      "image_url": "/images/mt2.jpg",
+      "created_at": "2023-08-12T12:34:56Z",
+      "updated_at": "2023-08-12T12:34:56Z",
+      "features": [
+        {
+          "name": "Blade Material",
+          "value": "High-quality steel"
+        },
+        {
+          "name": "Handle Material",
+          "value": "Non-slip ergonomic grip"
+        },
+        {
+          "name": "Length",
+          "value": "4 inches"
+        },
+        {
+          "name": "Weight",
+          "value": "300 grams"
+        },
+        {
+          "name": "Balance",
+          "value": "Center of gravity near middle"
+        }
+      ],
+      "isNew": false
+    }
+  ],
+  "users": [
+    {
+      "id": "1727016262739",
+      "firstName": "Lada",
+      "lastName": "Avrenk",
+      "email": "lada.qqqq@gmail.com",
+      "password": "$2a$10$yt6ukb7wcvU9orDLYFIwce6qocE/q/JbpuT9DvnpqoJannNj8WF6i",
+      "phone": "01712151721",
+      "address": "Brunenweg 26",
+      "status": "user"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1727764498977",
+      "order": {
+        "shippingAddress": "Brunenweg 26",
+        "totalPrice": 69.99,
+        "status": "pending",
+        "createdAt": "2024-10-01T06:34:58.966Z",
+        "updatedAt": "2024-10-01T06:34:58.966Z",
+        "goods": [
+          {
+            "product_id": "5",
+            "product_price": 69.99,
+            "quantity": 1
+          }
+        ]
+      },
+      "userId": "1727016262739"
+    },
+    {
+      "id": "1727791533342",
+      "order": {
+        "shippingAddress": "Brunenweg 26",
+        "totalPrice": 29.99,
+        "status": "pending",
+        "createdAt": "2024-10-01T14:05:33.330Z",
+        "updatedAt": "2024-10-01T14:05:33.330Z",
+        "goods": [
+          {
+            "product_id": "1",
+            "product_price": 29.99,
+            "quantity": 1
+          }
+        ]
+      },
+      "userId": "1727016262739"
+    }
+  ]
+}

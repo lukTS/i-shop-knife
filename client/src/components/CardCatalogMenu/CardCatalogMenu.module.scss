@@ -1,0 +1,24 @@
+@import '../../styles/variables';
+
+.container {
+  display: flex;
+  padding: 0 140px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  align-items: center;
+  background-color: $basic-gray-background;
+}
+
+.aaaa {
+  font-size: 30px;
+}
+
+.cardImg {
+  width: 20%;
+  height: auto;
+}
+
+.cardIcon {
+  width: 80px;
+  height: 80px;
+}

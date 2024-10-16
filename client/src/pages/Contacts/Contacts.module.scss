@@ -1,0 +1,19 @@
+@import '../../styles/variables';
+.container {
+  padding: 40px $container-padding 70px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+}
+
+.container p {
+  margin: 0;
+}
+
+.containerAddress {
+  margin-top: 20px;
+}
+
+.containerAddress p {
+  margin-bottom: 10px;
+}

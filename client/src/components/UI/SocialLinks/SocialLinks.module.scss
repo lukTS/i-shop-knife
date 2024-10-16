@@ -1,0 +1,23 @@
+@import '../../../styles/variables';
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .socialIcon {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .socialIcon:hover {
+    color: $basic-gray-border; /* Можно изменить на цвет, соответствующий социальной сети */
+  }
+
+  .correction {
+    margin-top: 5px;
+  }
+  

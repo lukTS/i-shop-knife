@@ -1,0 +1,132 @@
+@import '../../styles/variables';
+
+.container {
+  width: 100%;
+}
+
+.logo {
+  width: 230px;
+  margin-bottom: 13px;
+}
+
+.discount {
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+
+.containerSearch {
+  padding: 0px $container-padding;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerSearch p {
+  margin: 0;
+}
+
+.grayBlock {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $basic-gray-background;
+  height: 25px;
+  padding: 0 $container-padding;
+  margin: 0;
+  border-bottom: 0.5px solid $basic-gray-border;
+}
+
+.grayBlockItem {
+  display: flex;
+  margin-right: 40px;
+}
+
+.grayBlockItem div {
+  padding: 0 10px;
+}
+
+.grayBlockItem:hover {
+  color: $main-color-hover;
+}
+
+.cartInfoInContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.totalQuantity {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: $main-color;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 16px;
+  color: $basic-gray-background;
+  font-weight: 800;
+}
+
+.cart {
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+.freeShippingContainer {
+  border: 1px solid $main-color;
+  padding: 5px 25px;
+  background-color: $basic-gray-background;
+  border-radius: 10px;
+}
+
+.userLogIn {
+  color: $main-color;
+  font-weight: bold;
+}
+
+.cartAndAuth {
+  display: flex;
+  align-items: center;
+}
+
+.homeContainer {
+  display: flex;
+  align-items: center;
+}
+
+.homeMark {
+  font-size: 14px;
+  margin-right: 7px;
+  margin-bottom: 2px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center; 
+  gap: 15px; 
+}
+
+.containerModalWindowButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+.changeButtonYes {
+  padding: 7px 20px;
+}
+
+.changeButtonNo {
+  padding: 7px 24px;
+}
+
+.exitTitle {
+  color: $main-color;
+  margin-top: 35px;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}

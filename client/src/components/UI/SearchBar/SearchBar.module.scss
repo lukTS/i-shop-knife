@@ -1,0 +1,25 @@
+@import '../../../styles/variables';
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    margin: 0 auto;
+    padding: 3px 15px;
+    border: 1px solid $basic-gray-border;
+    border-radius: 10px;
+    background-color: $basic-gray-background;
+}
+
+.iconSearch {
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.searchContainer input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}

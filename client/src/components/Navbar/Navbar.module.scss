@@ -1,0 +1,27 @@
+@import '../../styles/variables';
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 0 $container-padding;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    height: 35px;
+    font-size: 18px;
+    color: $main-color;
+    font-family:$font-title;
+    border-top: 1px solid $basic-gray-border; 
+    border-bottom: 1px solid $basic-gray-border; 
+}
+
+.navBarLink{
+    color: $main-color;
+}
+
+.navBarLink:hover {
+    color: $main-color-hover;
+    text-decoration: underline;
+    text-decoration-color: $main-color-hover; /* Цвет подчеркивания */
+    text-decoration-thickness: 1px; /* Толщина подчеркивания */
+}
+  

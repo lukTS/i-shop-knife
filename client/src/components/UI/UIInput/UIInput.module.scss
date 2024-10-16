@@ -1,0 +1,13 @@
+@import '../../../styles/variables';
+
+.uiInput {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  //margin: 0 auto;
+  padding: 5px 15px;
+  border: 1px solid $basic-gray-border;
+  border-radius: 10px;
+  background-color: $basic-gray-background;
+  margin-bottom: 10px;
+}
