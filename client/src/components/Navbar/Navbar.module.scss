@@ -1,0 +1,111 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0 $container-padding;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  height: 35px;
+  font-size: 18px;
+  color: $main-color;
+  font-family:$font-title;
+  border-top: 1px solid $basic-gray-border; 
+  border-bottom: 1px solid $basic-gray-border; 
+  
+  @include respond-to(x-small) {
+    padding: 0px $container-padding-small;
+  }
+
+  @include respond-to(small) {
+    padding: 0px $container-padding-small;
+  }
+  
+  @include respond-to(medium) {
+    padding: 0px $container-padding-medium;
+  }
+  
+  @include respond-to(large) {
+    padding: 0px $container-padding-large;
+  }
+  
+  @include respond-to(x-large) {
+    padding: 0px $container-padding;
+  }
+
+}
+
+.navBarLink{
+  color: $main-color;
+
+  @include respond-to(x-small) {
+    display: none;
+  }
+
+  @include respond-to(small) {
+    display: none;
+  }
+  
+  @include respond-to(medium) {
+    display: block;
+  }
+
+}
+
+.navBarLink:hover {
+  color: $main-color-hover;
+  text-decoration: underline;
+  text-decoration-color: $main-color-hover; /* Цвет подчеркивания */
+  text-decoration-thickness: 1px; /* Толщина подчеркивания */
+}
+
+.burgerIcon {
+  display: none;
+  margin-left: 30px;
+
+  @include respond-to(x-small) {
+    display: block;
+  }
+
+  @include respond-to(small) {
+    display: block;
+  }
+  
+  @include respond-to(medium) {
+    display: none;
+  }
+  
+}
+
+.dropdownMenu {
+  width: 85%;
+  height: auto;
+  padding: 20px 5% 20px 10%;
+  position: absolute;
+  color: $main-color;
+  top: 0;
+  left: 0;
+  background-color: $basic-gray-background;
+  opacity: 0; 
+  transform: translateY(-20px); 
+  transition: opacity 0.3s ease, transform 0.3s ease; 
+  pointer-events: none; 
+}
+
+.dropdownMenu.open {
+  opacity: 1;
+  transform: translateY(0); 
+  pointer-events: all;
+}
+
+
+.menuClose {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dropdownMenuItem {
+  font-weight: 600;
+  color: $main-color;
+}

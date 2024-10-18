@@ -1,0 +1,48 @@
+@import '../../styles/variables';
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 60px $container-padding 80px;
+  font-size: 18px;
+  gap: 30px;
+}
+
+h1 {
+  margin: 50px 0 0;
+}
+
+.container h3 {
+  margin: 0;
+  font-size: 20px;
+
+}
+
+.container p, ul, ol {
+  margin: 10px 0 25px;
+  font-size: 18px;
+}
+
+.container ul {
+  list-style-type: disc;
+  margin-left: 40px;
+}
+
+.container li {
+  margin: 10px 0 10px;
+  font-size: 18px;
+}
+
+.imgContainer {
+  padding-top:0;
+}
+
+.program {
+  margin-top: 40px;
+  border-top: 1px solid $main-color;
+  border-bottom: 1px solid $main-color;
+  padding: 20px 10px;
+  text-align: center;
+  color: $main-color;
+  font-weight: 600;
+  font-size: 20px;
+}

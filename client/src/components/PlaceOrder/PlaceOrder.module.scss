@@ -1,0 +1,43 @@
+@import '../../styles/variables';
+
+.container{
+  padding: 0 30%;
+}
+
+.container h1 {
+  color: $main-color;
+}
+
+.container h3{
+  border-top: 1px solid $main-color;
+  color: $main-color;
+  padding-top: 8px;
+  margin: 0;
+}
+.container p{
+  margin: 2px 0 4px;
+}
+
+.buttonCorrection {
+  padding: 11px 20px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow {
+  margin-right: 9px;
+}
+
+.succeededOder {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 22px;
+  color: $main-color;
+  font-weight: 800;
+}

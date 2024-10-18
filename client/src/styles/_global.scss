@@ -1,0 +1,143 @@
+// _global.scss
+@import './variables';
+@import './mixins';
+
+body {
+  font-family: $font-stack;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+
+  @include respond-to(x-small) {
+    font-size: 12px;
+  }
+
+  @include respond-to(small) {
+    font-size: 14px;
+  }
+
+  @include respond-to(medium) {
+    font-size: 16px;
+  }
+
+  @include respond-to(large) {
+    font-size: 18px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+h1 {
+  font-size: 36px;
+
+  @include respond-to(small) {
+    font-size: 24px;
+  }
+  
+  @include respond-to(medium) {
+    font-size: 28px;
+  }
+
+  @include respond-to(large) {
+    font-size: 32px;
+  }
+
+  @include respond-to(x-large) {
+    font-size: 36px;
+  }
+
+}
+
+h2 {
+  font-size: 24px;
+  
+  @include respond-to(x-small) {
+    font-size: 10px;
+  }
+  
+  @include respond-to(small) {
+    font-size: 12px;
+  }
+
+  @include respond-to(medium) {
+    font-size: 16px;
+  }
+
+  @include respond-to(large) {
+    font-size: 20px;
+  }
+
+  @include respond-to(x-large) {
+    font-size: 24px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+
+  @include respond-to(small) {
+    font-size: 18px;
+  }
+
+  @include respond-to(medium) {
+    font-size: 20px;
+  }
+
+  @include respond-to(large) {
+    font-size: 23px;
+  }
+
+  @include respond-to(x-large) {
+    font-size: 24px;
+  }
+}
+
+h4 {
+  font-size: 20px;
+
+  @include respond-to(small) {
+    font-size: 14px;
+  }
+  
+  @include respond-to(medium) {
+    font-size: 16px;
+  }
+
+  @include respond-to(large) {
+    font-size: 18px;
+  }
+
+  @include respond-to(x-large) {
+    font-size: 20px;
+  }
+}
+
+.container {
+  width: 100%;
+  padding: 0 0;
+  margin: 0 auto;
+}
+
+html, body {
+  overflow-x: hidden; // Скрывает горизонтальную прокрутку
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: $main-color-hover;
+}
+
+ul {
+  list-style-type: none; /* Убираем маркеры */
+  padding: 0; /* Убираем отступы */
+  margin: 0;
+}
+

@@ -1,0 +1,16 @@
+@import '../../styles/variables';
+
+.container {
+  padding: 20px $container-padding 80px;
+  font-size: 18px;
+}
+.containerCertificates {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.containerCertificates img{
+  border: 1px solid black;
+}

@@ -1,0 +1,60 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.container {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+	background-color: $basic-gray-background;
+  padding: 40px $container-padding;
+  gap: 30px;
+  flex-wrap: wrap;
+
+  @include respond-to(x-small) {
+    justify-content: center;
+  }
+  
+  @include respond-to(small) {
+    justify-content: center;
+  }
+
+  @include respond-to(medium) {
+    justify-content: center;
+  }
+
+  @include respond-to(large) {
+    justify-content: center;
+  }
+
+  @include respond-to(x-large) {
+    justify-content: space-between;
+  }
+}
+
+.container img {
+  width: 60px;
+}
+
+.cardContainer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cardContainer h3 {
+  margin-bottom: 0;
+  color: $main-color;
+  font-size: 17px;
+}
+
+.cardContainer h3:hover {
+  color: $main-color-hover;
+}
+
+.loaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

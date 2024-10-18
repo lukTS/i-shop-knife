@@ -1,0 +1,25 @@
+@import '../../styles/variables';
+
+.container {
+  padding: 30px $container-padding 50px;
+  font-size: 18px;
+}
+
+.containerPhotoTransport {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 30px;
+}
+
+.containerLogoTransport {
+  display: grid;
+  grid-template-columns: 2fr 7fr 2fr;
+  justify-items: center;
+  gap: 30px;
+  margin: 30px 0 40px;
+}
+
+.containerLogoTransport h1 {
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,93 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.container {
+  background-color: $main-color;
+  padding: 15px $container-padding 0;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  margin-bottom: 30px;
+
+
+  @include respond-to(x-small) {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  @include respond-to(small) {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  @include respond-to(medium) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+
+.logo {
+  width: 180px;
+  grid-column: 1 / 2;
+  display: grid;
+
+  @include respond-to(x-small) {
+    display: none;
+  }
+
+  @include respond-to(small) {
+    display: none;
+  }
+
+  @include respond-to(medium) {
+    display: grid;
+    width: 150px;
+  }
+
+  @include respond-to(large) {
+    display: grid;
+    width: 180px;
+  }
+
+  @include respond-to(x-large) {
+    display: grid;
+    width: 180px;
+  }
+}
+
+.menu {
+  padding-top: 40px;
+}
+
+.categoryTitle {
+  color: $basic-gray-background;
+  margin-bottom: 10px;
+}
+
+.navLink {
+  color: $basic-gray-background;
+  line-height: 30px;
+}
+
+.navLink:hover {
+  color: $basic-gray-border;
+}
+
+.socialCoContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: white;
+  font-size: 18px;
+
+  @include respond-to(x-small) {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @include respond-to(small) {
+    flex-direction: row;
+  }
+}
+

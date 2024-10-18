@@ -1,0 +1,26 @@
+// _variables.scss
+$breakpoints: (
+  x-small: 360px,
+  small: 576px,
+  medium: 768px,
+  large: 992px,
+  x-large: 1200px,
+  xx-large: 1400px
+);
+
+$font-stack: 'Arial, sans-serif';
+$font-title: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+$main-color: #811900;
+$main-color-hover:#cb411f;
+$basic-gray-background: #f9f9f9;
+$basic-gray-border: #ccc;
+$gray-text: #555;
+$yellow_logo: #ffdf00;
+
+$container-padding: 70px;
+$container-padding-small: 15px;
+$container-padding-medium: 35px;
+$container-padding-large: 55px;
+
+

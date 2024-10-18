@@ -1,0 +1,70 @@
+@import '../../../styles/variables';
+
+.loader {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3.5px dashed $main-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotate 1.2s infinite linear;
+  z-index: 1;
+}
+
+.loader3 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: $main-color-hover;
+  animation: minus 1.5s infinite ease-in-out;
+  z-index: 3;
+}
+
+.loader2 {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $yellow_logo;
+  animation: pulse 1.5s infinite ease-in-out;
+  z-index: 2;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.6; 
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1; 
+  }
+}
+
+@keyframes minus {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(0.6); 
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
