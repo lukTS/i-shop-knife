@@ -13,16 +13,15 @@ This is a knife store web application built using React and Redux with TypeScrip
 - **Discount Page**: Details on available discounts for products.
 
 ## Versions of the Server
-
 This project contains two versions of the server:
 
-1. **File-based storage (Main)**: The main version of the server that stores data in a `db.json` file. This method is lightweight and simple, which makes it particularly convenient for initial development and testing phases. It allows rapid changes to the data structure and provides an easy-to-maintain solution without the overhead of managing a full database.
-   
-2. **MongoDB (Development)**: The MongoDB version of the server is a more scalable solution for production environments. This database allows for more efficient querying, better data management, and supports complex features like user roles, product filtering, and order management.
+- **File-based storage (Main)**: The main version of the server, which stores data in a `db.json` file. This version is simple, lightweight, and ideal for early-stage development and testing. It's quick to set up and doesn't require additional database infrastructure.
+  
+- **MongoDB (Development)**: The MongoDB version of the server is designed for production environments. This version supports a more complex data structure with improved querying, scalability, and better management of user roles, product filtering, and order processing. The server has been refactored to use a modular architecture and works with a full database instead of the static `db.json` file. This version also includes improved mobile responsiveness.
 
 ### Why keep the file-based server?
+The file-based server (`db.json`) is kept for development purposes and testing. However, the MongoDB version provides a more robust solution for scaling the application, making it better suited for a production environment. The modular structure and improved adaptability of the MongoDB version make it more efficient for long-term maintenance.
 
-The file-based `db.json` server is kept for the following reasons:
 - **Ease of development**: It allows quick setup without the need for additional database infrastructure.
 - **Simple data management**: Useful for developers and testers who need an easily editable, local storage solution.
 - **Rapid prototyping**: Ideal for trying out new features before committing to a more complex database system like MongoDB.
