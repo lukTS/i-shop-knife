@@ -1,14 +1,48 @@
 @import '../../styles/variables';
+@import '../../styles/mixins';
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 $container-padding;
+
+  h1 {
+    color: $main-color;
+    margin-bottom: 30px;
+
+    @include respond-to(x-small) {
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+    @include respond-to(small) {
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+    
+    @include respond-to(medium) {
+      margin-bottom: 30px;
+      margin-top: 20px;
+    }
+
+  }
 }
 
-.container h1 {
-  color: $main-color;
+.containerTitleAndProducts {
+  display: block;
+  width: 100%;
+  
+  @include respond-to(x-small) {
+    display: flex;
+  }
+  @include respond-to(small) {
+    display: flex;
+  }
+  
+  @include respond-to(medium) {
+    display: block;
+  }
+
 }
 
 .cartTitle {
@@ -18,6 +52,32 @@
   grid-template-columns: repeat(6, 1fr); 
   margin-bottom: 15px;
   gap: 30px;  
+
+  @include respond-to(x-small) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    > *:first-child {
+      margin-bottom: 30px;
+    }
+  }
+  @include respond-to(small) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    > *:first-child {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @include respond-to(medium) {
+    display: grid;
+    > *:first-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .containerProducts {
@@ -55,3 +115,4 @@
   font-weight: 800;
   font-size: 20px;
 }
+

@@ -14,21 +14,20 @@ h1 {
 
 .containerPhoto {
   width: 30%;
-}
-
-.containerPhoto img{
-  margin-bottom: 26px;
+  img{
+    margin-bottom: 26px;
+  }
 }
 
 .containerText {
   width: 70%;
-}
+  
+  p {
+    margin: 0 0 10px;
+  }
 
-.containerText p {
-  margin: 0 0 10px;
-}
-
-.containerText h2 {
-  margin: 30px 0 10px;
-  color: $main-color;
+  h2 {
+    margin: 30px 0 10px;
+    color: $main-color;
+  }
 }

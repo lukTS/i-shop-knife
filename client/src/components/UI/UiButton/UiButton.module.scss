@@ -6,8 +6,9 @@
   border: none;
   border-radius: 10px;
   cursor: pointer;
+
+  &:hover {
+    background-color: #a82200;
+  }
 }
 
-.uiButton:hover {
-  background-color: #a82200;
-}

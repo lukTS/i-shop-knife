@@ -1,21 +1,39 @@
 @import '../../styles/variables';
+@import '../../styles/mixins';
 
 .container{
   padding: 0 30%;
-}
 
-.container h1 {
-  color: $main-color;
-}
+  @include respond-to(x-small) {
+    padding: 0 10%;
+  }
+  @include respond-to(small) {
+    padding: 0 10%;
+  }
+  
+  @include respond-to(medium) {
+    padding: 0 15%;
+  }
 
-.container h3{
-  border-top: 1px solid $main-color;
-  color: $main-color;
-  padding-top: 8px;
-  margin: 0;
-}
-.container p{
-  margin: 2px 0 4px;
+  @include respond-to(large) {
+    padding: 0 20%;
+  }
+
+  h1 {
+    color: $main-color;
+  }
+  
+  h3{
+    border-top: 1px solid $main-color;
+    color: $main-color;
+    padding-top: 8px;
+    margin: 0;
+  }
+
+  p {
+    margin: 2px 0 4px;
+  }
+
 }
 
 .buttonCorrection {

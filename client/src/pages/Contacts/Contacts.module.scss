@@ -4,16 +4,16 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 30px;
-}
 
-.container p {
-  margin: 0;
+  p {
+    margin: 0;
+  }
 }
 
 .containerAddress {
   margin-top: 20px;
-}
 
-.containerAddress p {
-  margin-bottom: 10px;
+  p {
+    margin-bottom: 10px;
+  }
 }

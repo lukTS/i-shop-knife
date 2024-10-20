@@ -23,16 +23,19 @@ const Cart: React.FC = () => {
       <Header />
         <div className={styles.container}>
           <h1>Cart</h1>
-          <div className={styles.cartTitle}>
-            {cartNames.map((item) => <div className={styles.title} key ={item}>{item}</div>)}
+          <div className = {styles.containerTitleAndProducts}>
+            <div className={styles.cartTitle}>
+              {cartNames.map((item) => <div className={styles.title} key ={item}>{item}</div>)}
+            </div>
+            <div className={styles.containerProducts}>
+              { 
+                cartProducts.length > 0 
+                ? cartProducts.map((item) => <ProductCardCart key = {item.product._id} cartProduct = {item} />) 
+                : <p className={styles.emptyCart}>The Cart is empty</p>
+              }
+            </div>
           </div>
-          <div className={styles.containerProducts}>
-            { 
-              cartProducts.length > 0 
-              ? cartProducts.map((item) => <ProductCardCart key = {item.product._id} cartProduct = {item} />) 
-              : <p className={styles.emptyCart}>The Cart is empty</p>
-            }
-          </div>
+
           <div className={styles.containerPayButton}>
               { 
                 cartProducts.length > 0 

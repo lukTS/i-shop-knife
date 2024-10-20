@@ -1,9 +1,59 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
 .container {
   display: grid;
   grid-template-columns: repeat(6, 1fr); // 6 колонок одинаковой ширины
   margin-bottom: 15px;
   gap: 30px;  
-  align-items: flex-start;
+  place-items: center;
+
+  @include respond-to(x-small) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    > *:first-child {
+      margin-bottom: 27px;
+    }
+  }
+  @include respond-to(small) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    > *:first-child {
+      margin-bottom: 27px;
+    }
+  }
+  
+  @include respond-to(medium) {
+    display: grid;
+    > *:first-child {
+      margin-bottom: 0;
+    }
+  }
+
+  img {
+    width: 100px;    
+    height: auto;
+
+    @include respond-to(x-small) {
+      width: 70px;   
+      height: auto;
+    }
+
+    @include respond-to(small) {
+      width: 70px;    
+      height: auto;
+    }
+    
+    @include respond-to(medium) {
+      width: 120px;    
+      height: auto;
+    }
+
+  }
 }
 
 .item {
@@ -11,6 +61,7 @@
   justify-content: center;
   font-size: 16px;
   font-weight: bold;
+  height: 35px;
 }
 
 .remove {

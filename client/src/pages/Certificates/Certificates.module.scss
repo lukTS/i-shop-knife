@@ -9,8 +9,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
-}
 
-.containerCertificates img{
-  border: 1px solid black;
+  img{
+    border: 1px solid black;
+  }
 }

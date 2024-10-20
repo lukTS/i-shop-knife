@@ -7,17 +7,17 @@
     gap: 15px;
   }
   
-  .socialIcon {
-    color: #fff;
-    font-size: 24px;
-    transition: color 0.3s ease;
-  }
-  
-  .socialIcon:hover {
-    color: $basic-gray-border; /* Можно изменить на цвет, соответствующий социальной сети */
-  }
+.socialIcon {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
 
-  .correction {
-    margin-top: 5px;
+  &:hover {
+    color: $basic-gray-border; 
   }
+}
+
+.correction {
+  margin-top: 5px;
+}
   

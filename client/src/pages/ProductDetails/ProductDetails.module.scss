@@ -3,12 +3,12 @@
 .container {
   padding: 0 $container-padding;
   margin: 40px 0;
-}
 
-.container h1{
-  text-align: center;
-  color: $main-color;
-  margin-bottom: 40px;
+  h1{
+    text-align: center;
+    color: $main-color;
+    margin-bottom: 40px;
+  }
 }
 
 .mainPicture {
@@ -18,10 +18,10 @@
 .containerContent {
   display: flex;
   gap: 50px;
-}
 
-.containerContent h3 {
-  color: $main-color;
+  h3 {
+    color: $main-color;
+  }
 }
 
 .containerPrice {
